@@ -14,12 +14,17 @@ body
 {
     background-image: url('image/fondblue.png') ;
 }
-
+/*      APPLIQUER FONT-FAMILY AU BODY SI ELLE GENERAL : Pour tout le document */
 h1, h2, p, ul
 {
     font-family: 'open_sansregular', sans-serif;
 }
-
+/*  Il peut être pertinent de créer une classe exemple :
+.text-center{
+   text-align : center;
+}
+A APPLIQUER DANS LE CODE HTML
+*/
 h1, h1 + p
 {
     text-align: center;
